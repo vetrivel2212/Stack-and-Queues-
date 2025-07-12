@@ -1,3 +1,12 @@
+/*
+You are given a matrix M of size n x n where M[i][j] = 1 means person i knows person j, and M[i][j] = 0 means person i does not know person j. A celebrity is defined as:
+
+Everyone knows the celebrity.
+
+The celebrity knows no one.
+
+You need to find if a celebrity exists, and if so, return their index; otherwise, return -1.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
